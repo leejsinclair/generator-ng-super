@@ -8,9 +8,9 @@ var templateBasePath = '../../templates/',
     templateComponentsTestsFolder = templateBasePath + 'tests/';
 
 var destinationBasePath = '',
-    destinationAppFolder = destinationBasePath + 'app/',
-    destinationSrcFolder = destinationAppFolder + 'src/',
-    destinationTestsFolder = destinationBasePath + 'tests/';
+    destinationAppFolder = destinationBasePath + 'app/assets/',
+    destinationSrcFolder = destinationAppFolder + 'javascripts/',
+    destinationTestsFolder = destinationBasePath + 'app/tests/';
 
 var templatePaths = {
   base: templateBasePath,
