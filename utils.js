@@ -79,6 +79,7 @@ function setModuleComponentNames(retValObject, dottedName){
 }
 
 function addScriptTagToIndex(self, scriptPath){
+  return;
   var pathToIndexFile = filePaths.index;
   var indexReplacementTag = _.contains(scriptPath, 'module')? replacementTags.index.appModule : replacementTags.index.endbuild;
   var indexFile = self.readFileAsString(pathToIndexFile);
