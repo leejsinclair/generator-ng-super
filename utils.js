@@ -19,7 +19,7 @@ module.exports = {
 
 var filePaths = {
   index: paths.destination.app + 'index.html',
-  appModule: paths.destination.src + 'app.module.js'
+  appModule: paths.destination.src + 'sports/app.js'
 };
 
 var replacementTags = {
