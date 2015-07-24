@@ -97,7 +97,7 @@ function getScriptTag(scriptPath){
 }
 
 function addModuleNameToAppModule(self, moduleName){
-  var pathToAppModuleFile = paths.destination.src + 'app.module.js';
+  var pathToAppModuleFile = paths.destination.src + 'sports/app.js';
   var moduleReplacementTag = ']);';
   var moduleFile = self.readFileAsString(pathToAppModuleFile);
   var splitModuleFile = moduleFile.split('\n');
