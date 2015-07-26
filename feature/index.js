@@ -11,7 +11,7 @@ var NgSuperGenerator = yeoman.generators.NamedBase.extend({
 
   module: function () {
     var templatePath = utils.getComponentsTemplatePath('featureModule.js');
-    var filePath = utils.getComponentFilePath(this.module, this.module + '.module');
+    var filePath = utils.getComponentFilePath(this.module, '_' + this.module + '.module');
 
     this.template.apply(this, [
     	templatePath,
